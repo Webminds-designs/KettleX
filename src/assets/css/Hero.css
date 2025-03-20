@@ -1,0 +1,36 @@
+.outer-circle::before {
+    content: "";
+    position: absolute;
+    bottom: 3rem;
+    width: 1rem; 
+    height: 0.8rem; 
+    background-color: transparent; 
+    border-radius:  0 0 100% 0 ;
+    box-shadow: 5px 3px 0 2px #F9F9F9;
+    transform: rotate(4deg);
+  }
+  
+  .outer-circle::after {
+    content: "";
+    position: absolute;
+    bottom: 3rem;
+    width: 1rem; 
+    height: 0.8rem; 
+    background-color: transparent;
+    border-radius:  0 0 0 100% ;
+    box-shadow: -5px 3px 0 2px #F9F9F9;
+    transform: rotate(-4deg);
+  }
+
+  .outer-circle::before {
+    left: -0.95rem; 
+  }
+  
+  .outer-circle::after {
+    right: -0.95rem; 
+  } 
+
+  
+  
+
+  
